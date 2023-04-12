@@ -20,7 +20,7 @@ export default function Footer() {
       <Logo />
         </div>
 
-      <div className="flex xl:gap-0
+      <div className="flex xl:gap-20
       
       gap-10">
         <div>

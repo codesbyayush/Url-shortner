@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className='flex justify-between gap-8'>
       <Logo className="self-center"/>
-            <div className='flex lg:grow justify-between text-neuGrayishViolet'>
+            <div className='flex grow justify-between text-neuGrayishViolet'>
         <div className='flex gap-6'>
             <button className='hover:text-black'>Features</button>
             <button className='hover:text-black'>Pricing</button>
