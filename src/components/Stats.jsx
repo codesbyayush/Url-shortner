@@ -60,10 +60,14 @@ export default function Stats() {
   };
 
   return (
-    <div className="bg-neuGray bg-opacity-30 w-screen relative right-24 pb-44  px-24">
+    <div className="bg-neuGray bg-opacity-30 w-screen relative xl:right-24 pb-44  xl:px-24
+    
+    right-16 px-16">
       <div
-        className="h-40 w-full bg-action bg-cover bg-neuVeryDarkBlue rounded-lg flex place-content-center grid-flow-col gap-4 py-11 px-16 text-2xl 
-    relative -top-20 z-10"
+        className="xl:h-40 w-full bg-action bg-cover bg-neuVeryDarkBlue rounded-lg flex place-content-center grid-flow-col gap-4 xl:py-11 xl:px-16 xl:text-2xl 
+    relative xl:-top-20 z-10
+    
+    px-10 py-6 h-28 -top-14 text-xl"
       >
         <Action
           inputValue={inputValue}
@@ -72,20 +76,24 @@ export default function Stats() {
         />
       </div>
 
-      <div className="w-full bg-cover rounded-lg grid gap-4 text-2xl mt-4">
+      <div className="w-full bg-cover rounded-lg grid gap-4 xl:text-2xl mt-4
+      text-xl">
         {links.map((link, i) => (
               <Prevs Links={fullLink[i]} ShortLinks={link} key={i} />
             ))}
       </div>
 
       <div className="text-center pt-0">
-        <h2 className="font-bold text-5xl p-8">Advance Statistics</h2>
-        <p className="text-neuGrayishViolet text-xl">
+        <h2 className="font-bold xl:text-5xl xl:p-8
+        text-[2.5rem] p-4">Advance Statistics</h2>
+        <p className="text-neuGrayishViolet xl:text-xl
+        text-lg">
           Track how your links are performing across the web with
           <br /> our advanced statistics dashboard.
         </p>
       </div>
-      <div className="flex gap-8 pt-28 relative">
+      <div className="flex xl:gap-8 xl:pt-28 relative
+      pt-20 gap-6">
         <div className="absolute h-3 bg-primCyan w-full rounded-xl top-2/3"></div>
 
         <Card keyword={keywords[0]} expand={expands[0]} src={imgs[0]} />

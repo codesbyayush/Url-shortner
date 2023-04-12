@@ -12,13 +12,17 @@ const comp = ["About", "Our Team", "Careers", "Contact"];
 
 export default function Footer() {
   return (
-    <div className="bg-neuVeryDarkViolet w-screen relative right-24 px-24 py-16 text-white flex justify-between">
+    <div className="bg-neuVeryDarkViolet w-screen relative xl:right-24 xl:px-24 py-16 text-white flex justify-between
+    
+    px-16 right-16">
 
         <div className="">
       <Logo />
         </div>
 
-      <div className="flex gap-20">
+      <div className="flex xl:gap-0
+      
+      gap-10">
         <div>
           <div className="mb-4">
             <button>Features</button>

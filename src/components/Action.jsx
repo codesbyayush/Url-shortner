@@ -15,10 +15,14 @@ export default function Action({inputValue , setInputValue, shorten}) {
       id="links" 
       value={inputValue}
       onChange={handleChange} 
-      placeholder='Shorten a link here...' className='rounded-xl grow px-8 text-[1.8rem]'/>
+      placeholder='Shorten a link here...' className='rounded-xl grow px-8 xl:text-[1.8rem] 
+      text-[1.4rem]'/>
 
       <button 
-      className='bg-primCyan rounded-xl text-white px-12 hover:bg-opacity-50' onClick={shorten}
+      className='bg-primCyan rounded-xl text-white xl:px-12 hover:bg-opacity-50
+      
+      px-8'
+       onClick={shorten}
       >
          Shorten It!
          </button>

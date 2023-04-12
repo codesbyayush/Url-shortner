@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
+    screens: {
+      'xl' : "1180px"
+    },
     extend: {
       colors : {
         'primCyan' :"hsl(180, 66%, 49%)",
