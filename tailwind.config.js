@@ -19,8 +19,8 @@ export default {
         'neuVeryDarkViolet': 'hsl(260, 8%, 14%)',
       },
       backgroundImage : {
-        'subFooter' : "url(src/assets/bg-boost-desktop.svg)",
-        'action' : "url(src/assets/bg-shorten-desktop.svg)",
+        'subFooter' : "url(/src/assets/bg-boost-desktop.svg)",
+        'action' : "url(/src/assets/bg-shorten-desktop.svg)",
       }
     },
   },
