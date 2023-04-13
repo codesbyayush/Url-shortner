@@ -62,12 +62,16 @@ export default function Stats() {
   return (
     <div className="bg-neuGray bg-opacity-30 w-screen relative xl:right-24 pb-44  xl:px-24
     
-    right-16 px-16">
+    lg:right-16 lg:px-16
+    
+    right-4 px-4">
       <div
-        className="xl:h-40 w-full bg-action bg-cover bg-neuVeryDarkBlue rounded-lg flex place-content-center grid-flow-col gap-4 xl:py-11 xl:px-16 xl:text-2xl 
+        className="xl:h-40 w-full bg-action bg-cover bg-neuVeryDarkBlue rounded-lg flex place-content-center gap-4 xl:py-11 xl:px-16 xl:text-2xl 
     relative xl:-top-20 z-10
     
-    px-10 py-6 h-28 -top-14 text-xl"
+    lg:px-10 lg:py-6 lg:h-28 lg:-top-14 lg:text-xl lg:flex-row
+    
+    flex-col px-4 py-4 h-32 -top-16"
       >
         <Action
           inputValue={inputValue}
@@ -85,16 +89,25 @@ export default function Stats() {
 
       <div className="text-center pt-0">
         <h2 className="font-bold xl:text-5xl xl:p-8
-        text-[2.5rem] p-4">Advance Statistics</h2>
+        lg:text-[2.5rem] lg:p-4
+        
+        text-[1.6rem] p-2">Advance Statistics</h2>
         <p className="text-neuGrayishViolet xl:text-xl
-        text-lg">
+        lg:text-lg
+         text-sm">
           Track how your links are performing across the web with
-          <br /> our advanced statistics dashboard.
+          <br className="hidden lg:block"/> our advanced statistics dashboard.
         </p>
       </div>
       <div className="flex xl:gap-8 xl:pt-28 relative
-      pt-20 gap-6">
-        <div className="absolute h-3 bg-primCyan w-full rounded-xl top-2/3"></div>
+      pt-20 gap-6
+      
+      flex-col lg:flex-row text-center lg:text-left
+      ">
+        <div className="absolute lg:h-3 bg-primCyan lg:w-full rounded-xl lg:top-2/3
+
+        h-full w-2 left-1/2 lg:left-0 -translate-x-2/4
+        lg:translate-x-0"></div>
 
         <Card keyword={keywords[0]} expand={expands[0]} src={imgs[0]} />
         <Card

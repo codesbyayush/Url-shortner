@@ -12,39 +12,46 @@ const comp = ["About", "Our Team", "Careers", "Contact"];
 
 export default function Footer() {
   return (
-    <div className="bg-neuVeryDarkViolet w-screen relative xl:right-24 xl:px-24 py-16 text-white flex justify-between
+    <div className="bg-neuVeryDarkViolet w-screen relative xl:right-24 xl:px-24 lg:py-16 text-white flex lg:justify-between
     
-    px-16 right-16">
+    lg:px-16 lg:right-16 
+    
+    flex-col lg:flex-row gap-8 text-center lg:gap-0 lg:text-left justify-center right-4 px-4 py-10
+    
+    ">
 
-        <div className="">
+        <div className="self-center lg:self-auto">
       <Logo />
         </div>
 
+        
+
       <div className="flex xl:gap-20
       
-      gap-10">
+      gap-10 flex-col lg:flex-row
+      ">
         <div>
-          <div className="mb-4">
+          <div className="lg:mb-4 mb-3">
             <button>Features</button>
           </div>
           <Helper btn={fet} />
         </div>
 
         <div>
-          <div className="mb-4">
+          <div className="lg:mb-4 mb-3">
             <button>Resources</button>
           </div>
           <Helper btn={res} />
         </div>
 
         <div>
-          <div className="mb-4">
+          <div className="lg:mb-4 mb-3">
             <button>Company</button>
           </div>
           <Helper btn={comp} />
         </div>
 
-        <div className="flex gap-4 self-start">
+        <div className="lg:flex gap-4 self-start hidden">
           <button>
             <Facebook />
           </button>
@@ -59,6 +66,24 @@ export default function Footer() {
           </button>
         </div>
       </div>
+
+      <div className="flex gap-4 lg:self-start lg:hidden self-center">
+          <button>
+            <Facebook />
+          </button>
+          <button>
+            <Twitter />
+          </button>
+          <button>
+            <Pinterest />
+          </button>
+          <button>
+            <Instagram />
+          </button>
+        </div>
+
+      
+
     </div>
   );
 }

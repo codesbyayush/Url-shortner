@@ -9,7 +9,9 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className="pt-12 px-16 xl:px-24 overflow-visible">
+    <div className="lg:pt-12 lg:px-16 xl:px-24 lg:overflow-visible overflow-hidden
+    
+    px-4 pt-6">
       <Navbar />
       <Heros />
 

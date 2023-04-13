@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     screens: {
-      'xl' : "1180px"
+      'xl' : "1180px",
+      'lg' : "920px"
     },
     extend: {
       colors : {
