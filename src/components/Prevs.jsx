@@ -14,10 +14,10 @@ export default function Prevs({Links, ShortLinks}) {
     <div className="w-full bg-white bg-cover rounded-lg flex justify-between lg:gap-4 xl:py-4 xl:px-16 xl:text-2xl 
     relative xl:-top-20 z-10 
     lg:px-8 py-2 lg:text-xl lg:-top-14
-    
+    max-w-[100vw] overflow-scroll
     flex-col lg:flex-row text-sm -top-16 gap-2">
       <h1 className='my-auto
-      mx-4 lg:mx-0'>{Links}</h1>
+      mx-4 lg:mx-0 overflow-x-scroll overflow-y-hidden'>{Links}</h1>
       <hr className='lg:hidden'/>
       <div className='flex 
 
