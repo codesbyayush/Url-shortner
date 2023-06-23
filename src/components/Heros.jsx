@@ -31,7 +31,7 @@ export default function Heros() {
 
         <button className='bg-primCyan py-3 px-8 rounded-3xl text-white my-8 hover:bg-opacity-50
         
-        relative left-1/2 -translate-x-1/2
+        relative left-1/2 md:left-0 -translate-x-1/2 md:translate-x-0
         '>Get Started</button>
       </div>
         <Illustration className='relative xl:left-24
