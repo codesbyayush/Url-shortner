@@ -19,11 +19,10 @@ The website offers a reduced form of your large url. The readme is to breif you 
 
 ## Deployment
 
-The project is deployed to Netlify as well as github pages.
+The project is deployed to Netlify.
 
-[Netlify](https://codesbyayush)
+[Netlify]([https://codesbyayush](https://main--urlshortnerayush.netlify.app/))
 
-[GitHub Pages](https://codesbyayush/url-shortner)
 
 
 ### Built with
